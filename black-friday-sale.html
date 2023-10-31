@@ -5,13 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<!-- STYLESHEET -->
-    <link rel="stylesheet" href="/CSS/black-friday.css">
+    <link rel="stylesheet" href="CSS/style.css">
 	<!-- CUSTOM STYLESHEET -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap" rel="stylesheet">
 	<!-- TITLE --> 
-	<title>MOVE | Women's Activewear | Gym Wear and Workout Clothes</title>
+	<title>ELEVATE| Women's Activewear | Gym Wear and Workout Clothes</title>
 </head>
 
 <body>	
@@ -21,15 +21,23 @@
 		<nav>
 			<ul class="navbar">			
 				<li class="logo"><img src="RESOURCES/Images/sports-logo.png" alt="Black logo with sports top and shorts within a circle" height="50"> 
-				<li><a href="index.html">HOME</a></li>
-				<li><a href="black-friday-sale.html">BLACK FRIDAY</a></li>
-				<li><a href="coming-soon.html">COMING SOON</a></li>
-				<li><a><u>AUD $</u></a></li>													
+				<li><a href="index.html"><strong>HOME</strong></a></li>
+				<li><a href="black-friday-sale.html"><strong>BLACK FRIDAY</strong></a></li>
+				<li><a href="coming-soon.html"><strong>COMING SOON</strong></a></li>
+				<div class="wrap">
+					<div class="search">
+					   <input type="text" class="searchTerm" placeholder="What are you looking for?">
+					   <button type="submit" class="searchButton">
+						 <i class="fa fa-search"></i>
+					  </button>
+					</div>
+				 </div>
+				<li><a><u><strong>AUD $</strong></u></a></li>													
 		<!-- SHOPPING-CART -->
 			<div class="shopping-cart">		
 				<div class="dropdown">		
 					<button class="drop-btn">
-						<li><a href="cart.html" id="cart"><i class="fa fa-shopping-cart"></i><span class="badge">3</span></a></li>						
+						<li><i class="fa fa-shopping-cart"></i><span class="badge">3</span></li>						
 					</button>			
 						<div class="dropdown-content">					
 						<!-- shopping-cart-items -->									
@@ -37,174 +45,208 @@
 										<li class="clearfix">
 											<span class="cart-img"><img src="RESOURCES/Images/grey-set-1.jpg" alt="Grey gym top with biker shorts" width="90" height="100"/>										
 											<span class="item-name"><strong>Grey Set</strong></span>	
-											<del class="item-old-price">$100 AUD</del><br><span class="item-price">$50 AUD</span>	
-											<span class="item-quantity">Qty: 1</span>
+											<del class="item-old-price">$100 AUD</del><br><span class="item-price"><strong>$50 AUD</strong></span>	
+											<span class="item-quantity"><strong>Qty: 1</strong></span>
 											<button class="btn-delete">
-											<span class="mdi mdi-delete mdi-24px"></span>
-											<span class="mdi mdi-delete-empty mdi-24px"></span>
 											<span>remove</button>
 										</li></span>
 
 										<li class="clearfix">
 											<span class="cart-img"><img src="RESOURCES/Images/black-set-1.png" width="90" height="100" alt="Black gym top with leggings">								  
 											<span class="item-name"><strong>Black Set</strong></span>	
-											<del class="item-old-price">$100 AUD</del><br><span class="item-price">$50 AUD</span>	
-											<span class="item-quantity">Qty: 1</span>
+											<del class="item-old-price">$100 AUD</del><br><span class="item-price"><strong>$50 AUD</strong></span>	
+											<span class="item-quantity"><strong>Qty: 1</strong></span>
 											<button class="btn-delete">
-											<span class="mdi mdi-delete mdi-24px"></span>
-											<span class="mdi mdi-delete-empty mdi-24px"></span>
-											<span>remove</span></button>																	  								  									  								  
+											<span>remove</button>																	  								  									  								  
 										</li></span>
 
 										<li class="clearfix">
-											<span class="cart-img"><img src="RESOURCES/Images/insulated-bottle.png" width="90" height="100" alt="Insulated drink bottle"></span>
-											<span class="item-name"><strong>Drink Bottle</strong></span>									  
-											<del class="item-old-price">$30 AUD</del><br><span class="item-price">$15 AUD</span>	
-											<span class="quantity-and-remove-btn">
-											<span class="item-quantity">Qty: 1</span>										
+											<span class="cart-img"><img src="RESOURCES/Images/blue-set.png" width="90" height="100" alt="Blue gym top and leggings"></span>
+											<span class="item-name"><strong>Blue set</strong></span>									  
+											<del class="item-old-price">$99 AUD</del><br><span class="item-price"><strong>$30 AUD</strong></span>	
+											<span class="item-quantity"><strong>Qty: 1</strong></span>										
 											<button class="btn-delete">
-											<span class="mdi mdi-delete mdi-24px"></span>
-											<span class="mdi mdi-delete-empty mdi-24px"></span>
 											<span>remove</span></button></span>
 										</li>	
 									</ul>
-							<section>
-								<footer class="subtotal"><span><strong>SUBTOTAL: </strong></span></span><span class="main-color-text">$115 AUD </span><del class="item-old-price"> $230 AUD</del>
-								<span class="savings-text"><em>You're saving $115.00 AUD.</em></span>
+								<section>
+								<footer class="subtotal"><span><strong>SUBTOTAL: </strong></span></span><span class="main-color-text">$130 AUD </span><del class="item-old-price"> $230 AUD</del>
+								<span class="savings-text"><em>You're saving $169.00 AUD.</em></span><br>
 								<span class="small-text"><small>Tax included. Shipping calculated at checkout.</small></span>
 								<a href="index.html" class="button" id="continue-shopping-btn">CONTINUE SHOPPING</a>							  								  							  
-								<a href="checkout.html" class="button" id="checkout-btn">CHECKOUT</a>	
+								<a href="checkout.html" class="button" id="checkout-btn">CHECKOUT</a>
 							</footer>
 						</nav>	
-						<!--END OF NAV -->  																												
+						<!--END OF NAV -->  	
+						<h1 class="heading">BLACK FRIDAY SALE - UP TO 80% OFF ALL BEST SELLERS</h1>
+                            
+                            <em>    </em></h1>																												
 					</header>
   				<!-- END OF HEADER SECTION --> 
-				 
-<!-- MAIN -->
-<main>		
+			<!-- MAIN -->
+        <main>		
 	<!-- SECTION -->
-	<section>
-        <h1 class="black-friday">BLACK FRIDAY SALE</h1>
-<div class="container-md">
-    <img class="hero" src="RESOURCES/Images/woman-stretching-gym-before-workout_1303-31862.jpg" alt="Girl at the gym"/>
-    
-        <div class="row">
+	        <section>
+            
+                
+            <div class="container-md">
+            <img class="hero" src="RESOURCES/Images/woman-stretching-gym-before-workout_1303-31862.jpg" alt="Girl at the gym"/>
+            <h1 class="black-friday">
+            <div class="row">
               <div class="column">
-                    <div class="card"> 
-                        <div class="product-label">
-                        <li class="product-img">
-                        <img src="RESOURCES/Images/grey-set-1.jpg" width="286" height="319" alt="grey top and shorts"/></li>	
-                        <a class="item-name"><strong>Grey Set</strong></a>
-                        <a class="item-price"><del class="item-old-price"><em>$100 AUD</em></del>$50 AUD</a>
-                        <div class="product-rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>		
-                        <button class="add-to-cart-btn">add to cart</button>
-                    </li>
-                </ul>		
-            </div>
-        </div>	
-    
-<!-- PRODUCT -->
-    <div class="column">
-        <div class="card">
-            <div class="product-label">
-                <li class="product-img">
-                <img src="RESOURCES/Images/black-set-1.png" width="286" height="319" alt="black top and leggings"></li>							
-                <a class="item-name"><strong>Black Set</strong></a>
-                <a class="item-price"><del class="item-old-price"><em>$100 AUD</em></del>$50 AUD</a> 
-                <div class="product-rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>							
-                <button class="add-to-cart-btn">add to cart</button>
-            </li>
-        </div>
-    </div>
-</div>
-</div>
-    <!-- PRODUCT -->
-        <div class="column">
-            <div class="card">
-            <li class="product-img">
-            <img src="RESOURCES/Images/insulated-bottle.png" width="286" height="319" alt="insulated black water bottle"></li>
-            <div class="product-label">	
-            <a class="item-name"><strong>Insulated Drink Bottle</strong></a>
-            <a class="item-price"><del class="item-old-price"><em>$30 AUD</em></del>$15 AUD</a>									
-            <div class="product-rating">
-             <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <button class="add-to-cart-btn">add to cart</button>
-         </li>
-    </div>		
-
-        <!-- PRODUCT -->	
-            <div class="column">
-                <div class="card">
-                <li class="product-img"><img src="RESOURCES/Images/rope-1.png" width="286" height="319" alt="skipping rope"></li>
-                    <div class="product-label">
-                    <a class="item-name"><strong>Skipping Rope</strong></a>
-                    <a class="item-price"><del class="item-old-price"><em>$20 AUD</em></del>$10 AUD</a>
-                        <div class="product-rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>		
-                        <button class="add-to-cart-btn"></i> add to cart</button>
-                    </li>
-                 </div>
-          
-             <!-- PRODUCT -->
-                 <div class="column">
-                    <div class="card">
-                    <li class="product-img"><img src="RESOURCES/Images/medicine-ball-1.png" width="286" height="319" alt="medicine-ball"></li>	
-                    <div class="product-label">
-                        <a class="item-name"><strong>Medicine Ball</strong></a>
-                        <a class="item-price"><del class="item-old-price"><em>$60 AUD</em></del>$30 AUD</a>
-                        <div class="product-rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        <button class="add-to-cart-btn"> add to cart</button>
-                    </div>	
-                </div>
-            </div>
-          </div>
-                <!-- PRODUCT -->
-                    <div class="column">
-                        <div class="card">
-                         <li class="product-img"><img src="RESOURCES/Images/purple-set.png" width="286" height="319" alt="medicine-ball"></li>	
-                        <div class="product-label">
-                             <a class="item-name"><strong>Purple Set</strong></a>
-                         <a class="item-price"><del class="item-old-price"><em>$60 AUD</em></del>$30 AUD</a>
-                     <div class="product-rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                         <i class="fa fa-star"></i>
-                     <button class="add-to-cart-btn"> add to cart</button>
                 </div>	
             </div>
         </div>
     </div>
-
-
     <!-- container -->
     </div>
 	<!-- /FOOTER -->
-<footer class="copyright">move &copy;</footer>
+
+<section>
+    <h1 class="heading">FINAL CALL</h1>
+</section>
+<!-- PRODUCT -->
+<figure class="wrapper">
+  <img src="RESOURCES/Images/grey-set-1.jpg" width="286" height="319" alt="grey top and shorts"/>
+    <figcaption class="caption"><a class="item-name"><strong>Grey Set</strong></a></figcaption>
+        <a class="item-price"><del class="item-old-price"><em>$100 AUD</em></del>$50 AUD</a><br>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>               
+        <i class="fa fa-star"></i>               
+        <i class="fa fa-star"></i>	               	
+    <button class="add-to-cart-btn">add to cart</button>
+>   
+</figure>
+
+<!-- PRODUCT -->
+    <figure class="wrapper">
+     <img src="RESOURCES/Images/black-set-1.png" width="286" height="319" alt="black top and leggings"></li>							
+     <figcaption class="caption"><a class="item-name"><strong>Black Set</strong></a></figcaption>
+        <a class="item-price"><del class="item-old-price"><em>$100 AUD</em></del>$50 AUD</a><br> 
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>							
+        <button class="add-to-cart-btn">add to cart</button>
+ </figcaption>
+</figure>
+
+<!-- PRODUCT -->
+<figure class="wrapper">
+            <img src="RESOURCES/Images/insulated-bottle.png" width="286" height="319" alt="insulated black water bottle">
+                <figcaption class="caption"><a class="item-name"><strong>Insulated Drink Bottle</strong></a></figcaption>
+                    <a class="item-price"><del class="item-old-price"><em>$30 AUD</em></del>$15 AUD</a><br>									
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <button class="add-to-cart-btn">add to cart</button>
+        </figcaption>
+    </figure>
+
+<!-- PRODUCT -->
+<figure class="wrapper">
+   <img src="RESOURCES/Images/rope-1.png" width="286" height="319" alt="skipping rope">
+        <figcaption class="caption"><a class="item-name"><strong>Skipping Rope</strong></a></figcaption>
+            <a class="item-price"><del class="item-old-price"><em>$20 AUD</em></del>$10 AUD</a><br>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>		
+            <button class="add-to-cart-btn"></i> add to cart</button>
+        </figcaption>
+    </figure>
+
+ <!-- PRODUCT -->   
+ <figure class="wrapper">
+    <img src="RESOURCES/Images/purple-set.png" width="286" height="319" alt="purple top and 3/4 pants">
+       <figcaption class="caption"><a class="item-name"><strong>Purple Set</strong></a></figcaption>
+                <a class="item-price"><del class="item-old-price"><em>$100 AUD</em></del>$30 AUD</a><br>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <button class="add-to-cart-btn"> add to cart</button> 
+            </figcaption>
+        </figure> 
+
+     <!-- PRODUCT -->  
+        <figure class="wrapper">
+            <img src="RESOURCES/Images/joyful-woman-jumping-long-shot.png" width="286" height="319" alt="purple top and leggings">
+            <figcaption class="caption"><a class="item-name"><strong>Lilac Set</strong></a></figcaption>
+                     <a class="item-price"><del class="item-old-price"><em>$99 AUD</em></del>$30 AUD</a><br>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <button class="add-to-cart-btn"> add to cart</button>  
+                 </figcaption>
+             </figure> 
+
+<!-- PRODUCT --> 
+<figure class="wrapper">
+    <img src="RESOURCES/Images//young-woman-fitting-sport-wear-bridge-hot-sunny-morning-fit-showing-her-abs-figure-sport-motivation.jpg" width="286" height="319" alt="pastel purple gym top and leggings"></li>							
+    <figcaption class="caption"><a class="item-name"><strong>Pastel Purple Set</strong></a></figcaption>
+       <a class="item-price"><del class="item-old-price"><em>$100 AUD</em></del>$50 AUD</a><br> 
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>							
+       <button class="add-to-cart-btn">add to cart</button>
+</figcaption>
+</figure>  
+
+<!-- PRODUCT --> 
+<figure class="wrapper">
+    <img src="RESOURCES/Images/pink-set.png" width="286" height="319" alt="pink gym top with grey shorts">
+    <figcaption class="caption"><a class="item-name"><strong>Pink and Black Set</strong></a></figcaption>
+                <a class="item-price"><del class="item-old-price"><em>$90 AUD</em></del>$15 AUD</a><br>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <button class="add-to-cart-btn"> add to cart</button> 
+                </figcaption>
+             </figure> 
+
+<!-- PRODUCT -->  
+        <figure class="wrapper">
+            <img src="RESOURCES/Images/orange-set.png" width="286" height="319" alt="orange top and leggings">
+            <figcaption class="caption"><a class="item-name"><strong>Burnt Orange Set</strong></a></figcaption>
+                         <a class="item-price"><del class="item-old-price"><em>$80 AUD</em></del>$15 AUD</a><br>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <button class="add-to-cart-btn"> add to cart</button> 
+                     </figcaption>
+                 </figure> 
+
+        <!-- PRODUCT -->          
+         <figure class="wrapper">
+            <img src="RESOURCES/Images/red-and-black-set.png" width="286" height="319" alt="red and black top and leggings">
+            <figcaption class="caption"><a class="item-name"><strong>Red and Black Set</strong></a></figcaption>
+                         <a class="item-price"><del class="item-old-price"><em>$90 AUD</em></del>$15 AUD</a><br>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <button class="add-to-cart-btn"> add to cart</button> 
+                     </figcaption>
+                 </figure>           
+
+                     
+            <footer class="copyright">elevate&copy;</footer>
 </body>
 
 </html>
